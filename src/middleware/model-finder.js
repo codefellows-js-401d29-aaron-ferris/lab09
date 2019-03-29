@@ -1,6 +1,7 @@
 'use strict';
 /**
  * Model Finder Middleware
+ * creates the filepath in order to be required for model to be.
  * @module middleware/model-finder
  */
 

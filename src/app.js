@@ -43,5 +43,9 @@ let start = (port = process.env.PORT) => {
     console.log(`Server Up on ${port}`);
   });
 };
-  
+/**
+ * Exports the express with all of the methods we have defined with it.
+ * Exports the start method to listen for requests
+ * @param port {integer} (defaults to process.env.PORT)
+ */
 module.exports = {app,start};
